@@ -1,0 +1,107 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(203, 213, 213);
+}
+.box {
+    background-color: rgb(255, 255, 255);
+    height: 335px;
+    width: 360px;
+    margin-left: 900px;
+    margin-top: 150px;
+    border-radius: 5px;
+    position: relative;   
+}
+.yazi {
+    color: rgb(21, 21, 232);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-left: 260px;
+    position: absolute;
+    margin-top: 40px;
+    max-width: 650px;
+}
+#metn {
+    color: black;
+    font-size: 30px;
+    margin: 0px;
+}
+#basliq {
+    cursor: default;
+    margin: 0px;
+}
+input {
+    width: 350px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 17px;
+    border: 1px solid rgb(203, 202, 202);
+    margin: 5px;
+    margin-top: 7px;
+    padding-left: 15px;   
+}
+.login input[type="button"] {
+    background-color: rgb(56, 59, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;   
+}
+.login input[type="button"]:hover {
+    background-color: rgb(57, 70, 255);
+    transition: ease 0.3s;
+}
+.login a {
+    text-decoration: none;
+    color:rgb(56, 59, 255) ;
+    margin-left: 124px;
+    padding-top: 15px;
+}
+.login a:hover {
+    text-decoration: underline;
+}
+#login {
+    margin-bottom:12px ;
+}
+.cizgi {
+    border: 1px solid rgb(235, 233, 233);
+    margin: 10px 10px;
+    margin-top: 14px;
+}
+.new input[type="button"] {
+    background-color: rgb(72, 181, 72);
+    color:white ;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    cursor: pointer;
+}
+.new input[type="button"]:hover {
+    background-color:rgb(73, 192, 72) ;
+    transition: ease 0.3s;
+}
+.site-create {
+    text-align: center;
+    margin-top: 35px;
+}
+.sayfa-olustur  {
+    text-decoration: none;
+    color: black;
+}
+.sayfa-olustur:hover {
+    text-decoration: underline;
+    transform: 0.3s ease;
+}
+
+
+
+
+
+
+
+
+
+
